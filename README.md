@@ -23,7 +23,7 @@ If you get an error running this command, click here.
 You likely do not have <code>git</code> installed. To save time, we won't install <code>git</code> here, but we will instead download the starter code manually:
 
 
-1. Open [github.com/sbcs/copycat-coding](https://github.com/sbcs/copycat-coding)
+1. Open [github.com/sbcs/cc-template](https://github.com/sbcs/cc-template)
 2. Click on the big green `Code` button, and then click `Download ZIP`.
     ![screenshot of github](public/github-ss.png)
 3. Save the ZIP somewhere on your machine, and extract its contents.
