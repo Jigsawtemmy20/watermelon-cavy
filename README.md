@@ -13,7 +13,7 @@ Here is a link to the [p5.js documentation](https://p5js.org/reference/), which 
 To get started, clone this repository by running the following command in your terminal.
 
 ```bash
-git clone https://github.com/sbcs/copycat-coding.git
+git clone https://github.com/sbcs/cc-template.git
 ```
 <details>
 <summary>
