@@ -73,7 +73,7 @@ Be creative and have fun!
 Here are some required aspects of your final project.
 
 1. Your project should be fully based in HTML/CSS/JS and p5.js
-2. You cannot use code that you did not write yourself
+2. You cannot use code that you did not write yourself, aside from the examples, tutorials, and code present in the p5.js website and library.
 3. Your project in Part II should have some element(s) from the base implementation  present in the final version. This can be in whatever form you want, as long as some aspect of your project comes from Part I.
 
 ### Rubric
