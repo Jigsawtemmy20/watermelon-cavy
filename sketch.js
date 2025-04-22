@@ -27,6 +27,7 @@ function setup() {
  * draw() runs EVERY FRAME
  */
 function draw() {
+    clear()
     x = x + speedX
     y = y + speedY
     if(x>width || x<0){
