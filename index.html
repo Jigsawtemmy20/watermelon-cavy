@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copycat Coding Template</title>
+    <title>smol game</title>
     <!-- Do not touch the styling below-->
-    <style>
-        * {
+    <style id="style">
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("backgroundpic.jpg");
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            #pig {
+                position: absolute; /* Enables positioning */
+                top: 50px;
+                left: 50px;
+                width: 100px;
+    }
+            #snacc{
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 50px;
+            }
         }
     </style>
 </head>
 <body>
-    
+    <img src="./pig.jpg" id="pig"></img>
+    <img src="./snacc.jpg" id="snacc"</img>
     <!-- Do not touch - this contains the p5.js library code-->
     <script src="./lib/p5.min.js"></script>
     <script src="./lib/p5.sound.min.js"></script>
-
+    <info></info>
     <!-- Note, p5.min.js and p5.sound.min.js must be loaded prior to your own code to use p5.js functions -->
     <!-- Load your own JavaScript file by writing <script src="**PATH TO .js FILE**"></script> in the following lines-->
-
     <script src="./sketch.js"></script>
 </body>
-</html>
