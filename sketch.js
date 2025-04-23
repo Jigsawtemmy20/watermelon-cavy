@@ -2,12 +2,10 @@
  * A preload() function exists specifically to load assets like images/files
  * before the page finishes loading. It looks like
  * 
- * function preload() {
- * 
- * }
- */
-
-
+ */ 
+function preload() {
+    wheek = loadSound("wheek.mp3");
+}
 /**
  * setup() runs ONE TIME when the page finishes loading
  */
@@ -43,6 +41,8 @@ function draw() {
     pig.style.left = (mouseX-30) + 'px';
     pig.style.top = (mouseY-15) + 'px';
     if(mouseX-30 <= x && mouseX+130>= x && mouseY-65 <= y && mouseY-15 >= y){
+        userStartAudio();
+        wheek.play();
         watermelons++;
         speedX++;
         speedY++;
